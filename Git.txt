@@ -1,6 +1,9 @@
 echo "# Next_M03" >> README.md
-git init
-git add README.md
+# 1. One time each project to start git
+git init 
+# 2. Every time to add
+git add .
+#3. Git commit korbo diff name diye
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/FerdosFijer/Next_M03.git
