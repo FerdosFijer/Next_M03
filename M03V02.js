@@ -17,10 +17,14 @@ console.log(counter(3)); */
     return count;
   };
 };
-const counter = createCounter();
-console.log(counter(2));
-console.log(counter(3)); */
+const counter6 = createCounter();
+console.log(counter6(2));
+console.log(counter6(3));
 
+const counter7 = createCounter();
+console.log(counter7(5));
+console.log(counter7(10));
+ */
 //* Example 03 BEST WAY to make counter with class more readable with reuable code 
 
 class Counter {         // class er por capital letter diye name lekha hoy

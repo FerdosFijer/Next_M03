@@ -9,7 +9,7 @@ class Stack {
     if (this.isEmpty()) {
       return undefined;
     }
-    return this.items.pop();
+    return this.items.pop(); //! .pop korle sas theke ber hoy
   }
   peek() {     //* O(1)
     if (this.isEmpty()) {
@@ -21,7 +21,8 @@ class Stack {
     return this.items.length === 0;
   }
   print(){    //* O(n)
-    console.log(this.items.slice().reverse().join("→"));  //.slice meaning original outpur akta copy kore rakhe then .revers().join("→") pore add korsi print stack e j sas e dukse se protome dekabe and next console.log() output gulo .slice() er jonno original ta theke nibe jeta copy hoye ache 
+    console.log(this.items.slice().reverse().join(" → "));  
+    //.slice meaning original output akta copy kore rakhe then .revers().join("→") pore add korsi print stack e j sas e dukse se protome dekabe and next console.log() output gulo .slice() er jonno original ta theke nibe jeta copy hoye ache 
   }
 }
 const stack = new Stack();

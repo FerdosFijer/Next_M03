@@ -11,7 +11,7 @@ class Queue {
     if (this.isEmpty()) {
       return undefined;
     }
-    return this.items.shift();
+    return this.items.shift();  //! .shift korle prothom theke ber hoy and every item right shift hoy
   }
   peek() {     //* O(1)
     if (this.isEmpty()) {
@@ -30,7 +30,7 @@ const queue = new Queue();
 queue.enqueue(10);
 queue.enqueue(20);
 queue.enqueue(30);
-queue.print();
+// queue.print();
 
 queue.dequeue();
 queue.print();
